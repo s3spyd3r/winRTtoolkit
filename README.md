@@ -1,4 +1,4 @@
-### Project Description
+# Description
 A set of controls, extensions and helper classes for [C# Windows Runtime XAML](http://en.wikipedia.org/wiki/Windows_Runtime_XAML_Framework) applications.
 
 ### Features
