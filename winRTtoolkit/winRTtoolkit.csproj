@@ -50,6 +50,12 @@
     <Compile Include="Helpers\AutoMapperHelper.cs" />
     <Compile Include="Helpers\ColorConverter.cs" />
     <Compile Include="Helpers\DictionaryHelpers.cs" />
+    <Compile Include="Helpers\IAndContinueToAsyncService.cs" />
+    <Compile Include="Helpers\ImageManipulationHelper.cs" />
+    <Compile Include="Helpers\IPicturePickerService.cs" />
+    <Compile Include="Helpers\LocationHelper.cs" />
+    <Compile Include="Helpers\MessageBoxHelper.cs" />
+    <Compile Include="Helpers\PicturePickerHelper.cs" />
     <Compile Include="Helpers\SingletonBase.cs" />
     <Compile Include="Helpers\Validators.cs" />
     <Compile Include="Helpers\VisualElementsHelper.cs" />
@@ -58,11 +64,17 @@
     <Compile Include="Http\ServicesHelper.cs" />
     <Compile Include="IO\BaseJsonStorage.cs" />
     <Compile Include="IO\Storage.cs" />
+    <Compile Include="Model\PictureData.cs" />
+    <Compile Include="PhoneTasks\Calendar.cs" />
     <Compile Include="PhoneTasks\GPS.cs" />
     <Compile Include="PhoneTasks\Launcher.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Reference Include="AutoMapper, Version=4.2.1.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">
+      <HintPath>..\packages\AutoMapper.4.2.1\lib\portable-net45+win+wpa81+MonoAndroid10+Xamarin.iOS10+MonoTouch10\AutoMapper.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\packages\Newtonsoft.Json.9.0.1\lib\portable-net45+wp80+win8+wpa81\Newtonsoft.Json.dll</HintPath>
       <Private>True</Private>

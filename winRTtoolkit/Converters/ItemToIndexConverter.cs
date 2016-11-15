@@ -1,8 +1,8 @@
-﻿using s3toolkit_winrt.Helpers;
-using System;
+﻿using System;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Data;
+using winRTtoolkit.Helpers;
 
 namespace winRTtoolkit.Converters
 {
